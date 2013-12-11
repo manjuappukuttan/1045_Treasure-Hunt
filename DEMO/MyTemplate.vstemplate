@@ -1,0 +1,83 @@
+<VSTemplate Version="3.0.0" xmlns="http://schemas.microsoft.com/developer/vstemplate/2005" Type="Project">
+  <TemplateData>
+    <Name>TreasureHunt</Name>
+    <Description>&lt;No description available&gt;</Description>
+    <ProjectType>Web</ProjectType>
+    <ProjectSubType>VisualBasic</ProjectSubType>
+    <SortOrder>1000</SortOrder>
+    <CreateNewFolder>true</CreateNewFolder>
+    <DefaultName>TreasureHunt</DefaultName>
+    <ProvideDefaultName>true</ProvideDefaultName>
+    <LocationField>Enabled</LocationField>
+    <EnableLocationBrowseButton>true</EnableLocationBrowseButton>
+    <Icon>__TemplateIcon.ico</Icon>
+  </TemplateData>
+  <TemplateContent>
+    <Project TargetFileName="ProjectName.webproj" File="ProjectName.webproj" ReplaceParameters="true">
+      <Folder Name="db" TargetFolderName="db">
+        <ProjectItem ReplaceParameters="false" TargetFileName="th.accdb">th.accdb</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Default.aspx">Default.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Default.aspx.vb">Default.aspx.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="Global.asax">Global.asax</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="HOME.aspx">HOME.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="HOME.aspx.vb">HOME.aspx.vb</ProjectItem>
+      <Folder Name="images" TargetFolderName="images">
+        <ProjectItem ReplaceParameters="false" TargetFileName="379892-treasure-hunt-2013.png">379892-treasure-hunt-2013.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="back.jpg">back.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="back1.jpg">back1.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="backbk.jpg">backbk.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="backhd.jpg">backhd.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="bottom_bg.jpg">bottom_bg.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="bottom_bg1.jpg">bottom_bg1.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="bottom_bg2.jpg">bottom_bg2.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="bottom_bg3.jpg">bottom_bg3.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="bottom_bg4.jpg">bottom_bg4.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="bottom_bg5.jpg">bottom_bg5.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="bottom_bg6.jpg">bottom_bg6.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="btn.jpg">btn.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="btn1.gif">btn1.gif</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="btn2.gif">btn2.gif</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="btn21.gif">btn21.gif</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="btn22.gif">btn22.gif</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="btn3.gif">btn3.gif</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="btn4.gif">btn4.gif</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="cartoon.jpg">cartoon.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="cartoon1.jpg">cartoon1.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="cartoon2.jpg">cartoon2.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="clear.gif">clear.gif</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="clue.png">clue.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="footer_bullet.gif">footer_bullet.gif</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="header_bg.jpg">header_bg.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="header_bg1.jpg">header_bg1.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="icon2.gif">icon2.gif</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="images.jpg">images.jpg</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="marker.png">marker.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="marker1.png">marker1.png</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="photo_bg.gif">photo_bg.gif</ProjectItem>
+        <ProjectItem ReplaceParameters="false" TargetFileName="top_leafs.png">top_leafs.png</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="level.aspx">level.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="level.aspx.vb">level.aspx.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="map.aspx">map.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="map.aspx.vb">map.aspx.vb</ProjectItem>
+      <Folder Name="Scripts" TargetFolderName="Scripts">
+        <ProjectItem ReplaceParameters="true" TargetFileName="backfix.min.js">backfix.min.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery-1.4.1-vsdoc.js">jquery-1.4.1-vsdoc.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery-1.4.1.js">jquery-1.4.1.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="jquery-1.4.1.min.js">jquery-1.4.1.min.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="markermanager.js">markermanager.js</ProjectItem>
+        <ProjectItem ReplaceParameters="true" TargetFileName="markermanager_packed.js">markermanager_packed.js</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="style.css">style.css</ProjectItem>
+      <Folder Name="Styles" TargetFolderName="Styles">
+        <ProjectItem ReplaceParameters="true" TargetFileName="Site.css">Site.css</ProjectItem>
+      </Folder>
+      <ProjectItem ReplaceParameters="true" TargetFileName="success.aspx">success.aspx</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="success.aspx.vb">success.aspx.vb</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="tt.txt">tt.txt</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="unitpngfix.js">unitpngfix.js</ProjectItem>
+      <ProjectItem ReplaceParameters="true" TargetFileName="web.config">web.config</ProjectItem>
+    </Project>
+  </TemplateContent>
+</VSTemplate>
